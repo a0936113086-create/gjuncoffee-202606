@@ -423,3 +423,8 @@ body {
     font-size: 1.65rem;
   }
 }
+/* 加上滑鼠滑過去的互動效果 */
+a.btnstyle:hover {
+  background-color: #550055 !important; /* 滑過去變深紫色 */
+  transform: scale(1.05); /* 稍微放大一點點 */
+}
